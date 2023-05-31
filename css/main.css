@@ -788,3 +788,27 @@ margin: 15px;
         font-size: 20px;
 font-weight: 900;
      }
+     @media(min-width:300px) and (max-width:577px){
+         .second{
+             position: absolute;
+          right: -35px;
+height: auto;
+margin: 60px;
+         }
+     }
+     @media(min-width:578px) and (max-width:768px){
+        .second{
+            position: absolute;
+left: 75px;
+height: auto;
+margin:60px;
+          
+        }
+     }
+     @media(min-width:769px) and (max-width:990px){
+.second{
+    height: auto;
+    margin: 60px;
+
+}
+     }
